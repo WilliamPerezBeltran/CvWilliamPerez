@@ -1,71 +1,172 @@
-# cv William pérez
+# CV William Pérez
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Stack
 
-## Available Scripts
+- html
+- css
+- javascript
+- react
 
-In the project directory, you can run:
+### Clone repo and instalation
 
-### `yarn start`
+```bash
+# Clone repo
+$ git clone https://github.com/WilliamPerezBeltran/CvWilliamPerez.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Go to app directory
+$ cd CvWilliamPerez
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Install depedencies
+$ yarn install or npm install
+```
 
-### `yarn test`
+### Run app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Run the app in dev mode for linux
+$ yarn electron-dev or npm run electron-dev
+```
 
-### `yarn build`
+## What's included
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+├───public/
+│   ├───assets/
+│   │   ├───css/
+│   │   │   └───style.css
+│   │   ├───img/
+│   │   │   ├───portfolio/
+│   │   │   │   ├───portfolio-1.jpg
+│   │   │   ├───testimonials/
+│   │   │   │   ├───testimonials-1.jpg
+│   │   │   ├───bg.jpg
+│   │   │   ├───bg.psd
+│   │   │   ├───favicon.png
+│   │   │   ├───me.jpeg
+│   │   │   └───me1.jpg
+│   │   ├───js/
+│   │   │   └───main.js
+│   │   └───vendor/
+│   │       ├───bootstrap/
+│   │       │   ├───css/
+│   │       │   │   ├───bootstrap-grid.css
+│   │       │   │   ├───bootstrap-grid.css.map
+│   │       │   │   ├───bootstrap-grid.min.css
+│   │       │   │   ├───bootstrap-grid.min.css.map
+│   │       │   │   ├───bootstrap-reboot.css
+│   │       │   │   ├───bootstrap-reboot.css.map
+│   │       │   │   ├───bootstrap-reboot.min.css
+│   │       │   │   ├───bootstrap-reboot.min.css.map
+│   │       │   │   ├───bootstrap.css
+│   │       │   │   ├───bootstrap.css.map
+│   │       │   │   ├───bootstrap.min.css
+│   │       │   │   └───bootstrap.min.css.map
+│   │       │   └───js/
+│   │       │       ├───bootstrap.bundle.js
+│   │       │       ├───bootstrap.bundle.js.map
+│   │       │       ├───bootstrap.bundle.min.js
+│   │       │       ├───bootstrap.bundle.min.js.map
+│   │       │       ├───bootstrap.js
+│   │       │       ├───bootstrap.js.map
+│   │       │       ├───bootstrap.min.js
+│   │       │       └───bootstrap.min.js.map
+│   │       ├───boxicons/
+│   │       │   ├───css/
+│   │       │   │   ├───animations.css
+│   │       │   │   ├───boxicons.css
+│   │       │   │   ├───boxicons.min.css
+│   │       │   │   └───transformations.css
+│   │       │   └───fonts/
+│   │       │       ├───boxicons.eot
+│   │       │       ├───boxicons.svg
+│   │       │       ├───boxicons.ttf
+│   │       │       ├───boxicons.woff
+│   │       │       └───boxicons.woff2
+│   │       ├───counterup/
+│   │       │   └───counterup.min.js
+│   │       ├───icofont/
+│   │       │   ├───fonts/
+│   │       │   │   ├───icofont.woff
+│   │       │   │   └───icofont.woff2
+│   │       │   └───icofont.min.css
+│   │       ├───isotope-layout/
+│   │       │   ├───isotope.pkgd.js
+│   │       │   └───isotope.pkgd.min.js
+│   │       ├───jquery/
+│   │       │   ├───jquery.min.js
+│   │       │   └───jquery.min.map
+│   │       ├───jquery.easing/
+│   │       │   └───jquery.easing.min.js
+│   │       ├───owl.carousel/
+│   │       │   ├───assets/
+│   │       │   │   ├───ajax-loader.gif
+│   │       │   │   ├───owl.carousel.css
+│   │       │   │   ├───owl.carousel.min.css
+│   │       │   │   ├───owl.theme.default.css
+│   │       │   │   ├───owl.theme.default.min.css
+│   │       │   │   ├───owl.theme.green.css
+│   │       │   │   ├───owl.theme.green.min.css
+│   │       │   │   └───owl.video.play.png
+│   │       │   ├───LICENSE
+│   │       │   ├───README.md
+│   │       │   ├───owl.carousel.js
+│   │       │   └───owl.carousel.min.js
+│   │       ├───php-email-form/
+│   │       │   └───validate.js
+│   │       ├───remixicon/
+│   │       │   ├───remixicon.css
+│   │       │   ├───remixicon.eot
+│   │       │   ├───remixicon.less
+│   │       │   ├───remixicon.svg
+│   │       │   ├───remixicon.symbol.svg
+│   │       │   ├───remixicon.ttf
+│   │       │   ├───remixicon.woff
+│   │       │   └───remixicon.woff2
+│   │       ├───venobox/
+│   │       │   ├───venobox.css
+│   │       │   ├───venobox.js
+│   │       │   ├───venobox.min.css
+│   │       │   └───venobox.min.js
+│   │       └───waypoints/
+│   │           └───jquery.waypoints.min.js
+│   ├───forms/
+│   │   ├───Readme.txt
+│   │   └───contact.php
+│   ├───favicon.ico
+│   ├───index.html
+│   ├───logo192.png
+│   ├───logo512.png
+│   ├───manifest.json
+│   └───robots.txt
+├───src/
+│   ├───App.css
+│   ├───App.js
+│   ├───App.test.js
+│   ├───index.css
+│   ├───index.js
+│   ├───logo.svg
+│   ├───reportWebVitals.js
+│   └───setupTests.js
+├───.eslintcache
+├───.gitignore
+├───README.md
+├───package.json
+└───yarn.lock
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Heroku
 
-### `yarn eject`
+```bash
+# push to heroku
+$ git push heroku master
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# open app
+$ heroku open
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Creators
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**William Pérez**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CvWilliamPerez
+- <https://github.com/WilliamPerezBeltran>
