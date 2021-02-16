@@ -158,6 +158,9 @@ $ yarn electron-dev or npm run electron-dev
 ## Heroku
 
 ```bash
+# Login to heroku
+$ heroku login
+
 # push to heroku
 $ git push heroku master
 
