@@ -190,7 +190,7 @@ function App() {
                 <h5>Profesional independiente </h5>
                 <h5>Sept. 2020 - Ene. 2021</h5>
                 <p>
-                  <em>Cartagena de Indias, Bolívar, Colombia</em>
+                  <em>Cartagena, Colombia</em>
                 </p>
                 <p>
                   <ul>
