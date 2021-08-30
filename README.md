@@ -168,6 +168,12 @@ $ git push heroku master
 $ heroku open
 ```
 
+
+## Publication on heroku
+
+- <https://gentle-springs-37867.herokuapp.com/>
+
+
 ## Creators
 
 **William Pérez**
